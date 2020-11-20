@@ -1,0 +1,79 @@
+.nav-bar {
+    width: 85%;
+    height: 80px;
+}
+
+.menu {
+    width: 515px;
+    height: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    list-style-type: none;
+    color: white;
+}
+
+.social-media {
+    float: right;
+    color: white;
+}
+
+.social-media i:hover {
+    color:blue;
+}
+
+.menu li:hover {
+    color:blue;
+}
+
+head, header, .section-1 {
+    background-image: url(./Images/Background\ pic.png);
+    height: 200px;
+    background-color:#67abfe;
+    opacity: 80%;
+    height: 250px;
+    background-size: cover;
+}
+
+
+
+.section-1 h1 {
+    color: white;
+    width: 917px;
+    height: 98px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.section-1 h3 {
+    color: white;
+    width: 613px;
+    height: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.section-2 {
+    border-top: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.section-4 {
+    display: flex;
+    flex-direction: row;
+    background-color:#67abfe;
+    height: 400px;
+}
