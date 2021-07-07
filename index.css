@@ -1,0 +1,103 @@
+.nav-bar {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.menu {
+    width: 515px;
+    height: 18px;
+    margin-left: 300px;
+    text-align: center;
+    list-style-type: none;
+    color: white;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 25px;
+    margin-top: 71px;
+    font-size: 14px;
+}
+
+.logo {
+    float: left;
+    margin-top: 75px;
+}
+
+.social-media {
+    float: right;
+    color: white;
+    margin-top: 65px;
+    font-size: 16px;
+}
+
+.social-media i:hover {
+    color:blue;
+}
+
+.menu li:hover {
+    color:blue;
+}
+
+header {
+    background-image: url(./Images/Background\ pic.png);
+    background-color:#67abfe;
+    opacity: 60%;
+    height: 800px;
+    width: 1600px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.section-1 h1 {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 330px;
+    line-height: 22px;
+}
+
+.section-1 h3 {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.section-2 h1 {
+    text-align: center;
+    margin-top: 500px;
+}
+
+.section-2 img {
+    float: left;
+    
+}
+
+.section-2 div {
+    float: right;
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    margin-top: 600px;
+
+}
+
+
+.section-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:#67abfe;
+    height: 1035px;
+    margin-top: 300px;
+}
+
+.section-4 h1 {
+    text-align: center;
+    color: white;
+}
